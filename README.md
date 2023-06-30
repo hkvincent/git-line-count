@@ -1,15 +1,27 @@
 # git-line-count
 The script is used to count the lines of code per team member.
 
-# how to use
+# How to use with non-sort
 you can run the script with just the member names, and it will use the default date range:
 
 ```bash
-./team_stats.sh "John" "Vincent" "Joey" "Victor"
+./count.sh "John" "Vincent" "Joey" "Victor"
 ```
 
 Or you can provide a custom date range:
 
 ```bash
-./team_stats.sh "2023-02-01" "2023-03-01" "John" "Vincent" "Joey" "Victor"
+./count.sh "2023-02-01" "2023-03-01" "John" "Vincent" "Joey" "Victor"
+```
+# How to use with sort
+you can run the script with just the member names, and it will use the default date range:
+
+```bash
+./count_sort.sh "John" "Vincent" "Joey" "Victor"
+```
+
+Or you can provide a custom date range:
+
+```bash
+./count_sort.sh "2023-02-01" "2023-03-01" "John" "Vincent" "Joey" "Victor"
 ```
