@@ -30,3 +30,8 @@ Or you can provide a custom date range:
 ```bash
 ./count_ignore.sh "2023-02-01" "2023-03-01" css scss -- "John" "Vincent" "Joey" "Victor"
 ```
+# How to use for specified commit
+
+```bash
+./script.sh java css -- [commithash] a1b2c3d4 e5f6g7h8
+````
