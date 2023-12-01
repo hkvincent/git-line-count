@@ -25,3 +25,8 @@ Or you can provide a custom date range:
 ```bash
 ./count_sort.sh "2023-02-01" "2023-03-01" "John" "Vincent" "Joey" "Victor"
 ```
+
+# How to use "sort" and ignore specific files.
+```bash
+./count_ignore.sh "2023-02-01" "2023-03-01" css scss -- "John" "Vincent" "Joey" "Victor"
+```
