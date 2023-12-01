@@ -35,3 +35,8 @@ Or you can provide a custom date range:
 ```bash
 ./count_commit.sh java css -- [commithash1 commithash2] 
 ````
+
+# How to use for specified branch
+```bash
+./count_branch.sh java css -- [branch name] 
+````
