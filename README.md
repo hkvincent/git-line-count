@@ -33,5 +33,5 @@ Or you can provide a custom date range:
 # How to use for specified commit
 
 ```bash
-./count_commit.sh java css -- [commithash1 commithash2] a1b2c3d4 e5f6g7h8
+./count_commit.sh java css -- [commithash1 commithash2] 
 ````
